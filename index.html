@@ -9,24 +9,35 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="jquery.js">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+		<script src="js/bootstrap.min.js"> </script>
 </head>
 <body class="morado">
 	<div class="container-fluid">
 		<header>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-4 col-md-4">
-						<img class="logo" src="image/header-logo.png" alt="header-logo">
-					</div>
-					<div class="col-sm-8 col-md-8">
-						<nav>
-							<ul>
-								<li>LIFESTYLE</li>
-								<li>FLOWERS</li>
-								<li>FASHION</li>
-								<li>NEWS</li>
-								<li>FEATURES</li>
-							</ul>
+					<div class="col-xs-12 col-md-12">
+						<nav class="navbar navbar-inverse nav-bar-static-top" role="navigation">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a href="#" class="navbar-brand">
+								</a>
+								<img id="logo" class="logo img-responsive" src="image/header-logo.png">	
+							</div>
+							<div class="collapse navbar-collapse" id="navegacion">
+								<ul class="nav navbar-nav">
+									<li><a href="">LIFESTYLE</a></li>
+									<li><a href="">FLOWERS</a></li>
+									<li><a href="">FASHION</a></li>
+									<li><a href="">NEWS</a></li>
+									<li><a href="">FEATURES</a></li>
+								</ul>
+							</div>
 						</nav>
 					</div>
 				</div>
@@ -36,13 +47,15 @@
 			<section><!--imagen de fondo con parrafo:Spring Came-->
 				<div class="container">
 					<div class="row">  <!-- PONER IMG DE FONDO -->
-						<div class="col-sm-12 col-md-12">
+						<div class="col-xs-12 col-md-12">
 							<div class="fotoUno">
 								<div class="fnegro tipog ">
-									<p class="lt-grande amarillo ">Spring Came</p>
-									<p>Life -</p>
-									<p>Amanda Ray -</p>
-									<p>10th March 2015 </p>
+									<ul>
+										<li><p class="lt-grande amarillo ">Spring Came</p></li>
+										<li><p class="lt-bca">Life -</p></li>
+										<li><p class="lt-bca">Amanda Ray -</p></li>
+										<li><p class="lt-bca">10th March 2015 </p></li>
+									</ul>
 								</div>	
 							</div>		
 						</div>
@@ -52,17 +65,17 @@
 			<section>
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-4 col-md-4">
+						<div class="col-xs-12 col-md-4 ">
 							<div class="fotoDos"></div><!--PONER IMG flores 1-3 -->
 							<h3 class="tipog amarillo">Floral fragance</h3>
 							<h4 class="tipog lt-bca">Life Amanda Ray 10th March 2015</h4>
 						</div>
-						<div class="col-sm-4 col-md-4">
+						<div class="col-xs-12 col-md-4">
 							<div class="fotoTres"></div><!--PONER IMG flores 2-3-->
 							<h3 class="tipog amarillo">Now with Flatness</h3>
 							<h4 class="tipog lt-bca">News Amanda Ray 28th July 2015</h4>
 						</div>
-						<div class="col-sm-4 col-md-4">
+						<div class="col-xs-12 col-md-4">
 							<div class="fotoCuatro"></div><!--PONER IMG flores 3-3-->
 							<h3 class="tipog amarillo">Garden Flowers</h3>
 							<h4 class="tipog lt-bca">Life Amanda Ray 28th October </h4>
@@ -71,20 +84,41 @@
 				</div>
 			</section>
 			<section>
-				<div class="container">
+				<div class="container margin">
 					<div class="row">    <!--PONER FOTO MEDIANA ANTES DE VIDEO-->
-						<div class="col-sm-7 col-md-7">
+						<div class="col-xs-12 col-md-7">
 							<div class="row">
 								<div class="col-sm-12 col-md-12 fotoCinco "></div>
-								<h3 class="tipog amarillo">Now with Flatness</h3>
-								<h4 class="tipog lt-bca">News Amanda Ray 28th July 2015</h4>
-								<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ea temporibus eius eos saepe excepturi quo id a, nam voluptatibus. Omnis possimus dolorem, ut ullam. Deleniti consectetur eos repellat praesentium! </p>
-								<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non saepe ut sequi, natus consequatur cupiditate tenetur, id nostrum iure nam. Iure nesciunt reiciendis ipsa eligendi veritatis pariatur eaque, impedit rerum! </p>
+									<h3 class="tipog amarillo ">Now with Flatness</h3>
+									<h4 class="tipog lt-bca">News Amanda Ray 28th July 2015</h4>
+									<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ea temporibus eius eos saepe excepturi quo id a, nam voluptatibus. Omnis possimus dolorem, ut ullam. Deleniti consectetur eos repellat praesentium! </p>
+									<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non saepe ut sequi, natus consequatur cupiditate tenetur, id nostrum iure nam. Iure nesciunt reiciendis ipsa eligendi veritatis pariatur eaque, impedit rerum! </p>
 							</div>
 							<div class="row">
-								<div class="col-sm-12 col-md-12">
+								<div class="col-xs-12 col-md-12">
 									<iframe class=" vdolapse" src="https://www.youtube.com/embed/11hd_fEA9T0" frameborder="0" allowfullscreen></iframe>
 									<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ipsa non, sed ut mollitia ipsam voluptatem vitae, corporis nisi deserunt repellendus delectus modi eius nam ipsum. Accusamus temporibus sapiente a.</p>
+								</div>
+							</div>
+						</div>
+						<div class="hidden-xs-down ">
+							<div class="row marg-left">
+								<div class="visible-lg visible-md col-md-5">
+									<div class="miform moradoOb">
+										<form action="">        <!--aqui empeza mi formulario-->
+											<input class="Search lt-bca morado" type="Search" placeholder="Search" required>
+										</form>
+									</div>
+									<h3 class="tipog amarillo">About Me</h3>
+									<div class="fotodeChica"></div> <!-- PONER IMG DE FONDO -->
+									<h4 class="tipog lt-bca">Amanda Ray</h4>
+									<p class="lt-bca">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum omnis, numquam sunt architecto laudantium esse excepturi minima sint dignissimos, perspiciatis earum sed, reiciendis natus magnam, eveniet voluptatibus aut repudiandae tenetur.</p>
+									<ul class="iconos">
+										<li><img class="iconos" src="image/iconos-12.png" alt="iconos-12"></li>
+										<li><img class="iconos" src="image/iconos-13.png" alt="iconos-13"</li>
+										<li><img class="iconos" src="image/iconos-14.png" alt="iconos-14"></li>
+										<li><img class="iconos" src="image/iconos-13.png" alt="iconos-13"</li>
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -92,44 +126,16 @@
 				</div>
 			</section>
 		</article>
-		<aside >
-			<div class="hidden-xs-down">
-				<div class="row">
-					<div class="col-sm-5 col-md-5">
-						<form action=""><!--aqui empeza mi formulario-->
-							<input class="Search" type="Search" placeholder="Search" required>
-						</form>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-5 col-md-5">
-						<div class="fotodeChica"></div> <!-- PONER IMG DE FONDO -->
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-5 col-md-5"></div>
-				</div>
-				<div class="row">
-					<div class="col-sm-5 col-md-5"></div>
-						<h4>Amanda Ray</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum omnis, numquam sunt architecto laudantium esse excepturi minima sint dignissimos, perspiciatis earum sed, reiciendis natus magnam, eveniet voluptatibus aut repudiandae tenetur.</p>
-						<ul>
-							<li><img src="" alt=""></li>
-							<li><img src="" alt=""></li>
-							<li><img src="" alt=""></li>
-							<li><img src="" alt=""></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</aside>
 		<footer>
-			<div>
-				<p>All Rights Reserved  </p>
+			<div class="container">
+					<div class="row">  <!-- PONER IMG DE FONDO -->
+						<div class="col-xs-12 col-md-12 text-center lt-bca">
+							<p>All Rights Reserved © </p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</footer>
 	</div>
-	<script href="bootstrap/css/bootstrap.css"></script>
-	<script href="jquery.js"></script>
 </body>
 </html>

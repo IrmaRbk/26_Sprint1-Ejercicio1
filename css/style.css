@@ -33,10 +33,17 @@ li {
 .morado{
 	background-color: #0B0719; 
 }
+.moradoOb{
+	background-color: #2C1A36;
+	margin-top: -15px;
+}
 .fnegro{
 	background-color: black;
-	width: 50%;
+	width: 80%;
 	height: 300px;
+	margin-left:5%;
+	margin-top: -10%;
+	padding-bottom : 35%;
 }
 .tipog{
  	font-family: Courgette, cursve;
@@ -49,7 +56,7 @@ li {
 	color: white;
 }
 .lt-grande{
-	font-size: 70px;
+	font-size: 75px;
  	padding-top: 15%;
 }
 
@@ -67,7 +74,7 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:180px ;
-	width: 350px;
+	width: 100%;
 	background-image: url("../image/image7.jpg");
 	padding-top: 70%;
 	margin: 10%;
@@ -77,7 +84,7 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:180px ;
-	width: 350px;
+	width:  100%;
 	background-image: url("../image/image3.jpg");
 	padding-top: 70%;
 	margin: 10%;
@@ -86,8 +93,8 @@ li {
 .fotoCuatro{
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:180px ;
-	width: 350px;
+	height:100% ;
+	width:100% ;
 	background-image: url("../image/image2.jpg");
 	padding-top: 70%;
 	margin: 10%;
@@ -97,18 +104,29 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:10%;
-	width: 20%;
+	width: 100%;
 	background-image: url("../image/image4.jpg");
 	padding-top: 35%;
 	margin: 2%;
 	margin-left:3% ;
 }
-
+.margin{
+	margin: 5%
+}
 .vdolapse{
 	width:105% ;
 	height:315px ;
 	padding-top: 5%;
 
+}
+.marg-left{
+	padding-left: 2%;
+}
+.miform{
+	padding: 10% 0%;
+	width: 100%;
+	height: 60px;
+	display: block;
 }
 
 .fotodeChica{
@@ -119,4 +137,8 @@ li {
 	background-image: url("../image/kew_gardens_3_500x500.jpg");
 
 }
+.iconos{
+	border-radius: 50%;
+	list-style: none;
 
+}	
