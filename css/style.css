@@ -1,0 +1,122 @@
+/* Inserta tu codigo aqui */
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+header{
+	background-color: black;
+}
+
+.logo{
+	height: 100% ;
+	width: 200px ;
+}
+
+li {	
+	color: white;
+	list-style: none;
+	display: inline-block;
+	margin: 5px;
+	font-size: 15px;
+	margin-top: 50px;
+	padding-left:  15px ;	
+	
+}
+.morado{
+	background-color: #0B0719; 
+}
+.fnegro{
+	background-color: black;
+	width: 50%;
+	height: 300px;
+}
+.tipog{
+ 	font-family: Courgette, cursve;
+ 	text-align: center;
+}
+.amarillo{
+	color: #DBA901;
+}
+.lt-bca{
+	color: white;
+}
+.lt-grande{
+	font-size: 70px;
+ 	padding-top: 15%;
+}
+
+.fotoUno{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:500px ;
+	background-image: url("../image/header-image.jpg");
+	padding-top: 15%;
+	padding-left: 10%;
+	padding-bottom: -5% ; 
+	
+}
+.fotoDos{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:180px ;
+	width: 350px;
+	background-image: url("../image/image7.jpg");
+	padding-top: 70%;
+	margin: 10%;
+	margin-left:3% ;
+}
+.fotoTres{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:180px ;
+	width: 350px;
+	background-image: url("../image/image3.jpg");
+	padding-top: 70%;
+	margin: 10%;
+	margin-left:3% ;
+}
+.fotoCuatro{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:180px ;
+	width: 350px;
+	background-image: url("../image/image2.jpg");
+	padding-top: 70%;
+	margin: 10%;
+	margin-left:3% ;
+}
+.fotoCinco{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:10%;
+	width: 20%;
+	background-image: url("../image/image4.jpg");
+	padding-top: 35%;
+	margin: 2%;
+	margin-left:3% ;
+}
+
+.vdolapse{
+	width:105% ;
+	height:315px ;
+	padding-top: 5%;
+
+}
+
+.fotodeChica{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:180px ;
+	width: 280px;
+	background-image: url("../image/kew_gardens_3_500x500.jpg");
+
+}
+
